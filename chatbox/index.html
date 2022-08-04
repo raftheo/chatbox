@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Chatbox</title>
+        <link rel="stylesheet" href="app.css">
+        <script src="./main.js"></script>
+    </head>
+    <body>
+        <div class="app">
+            <div class="board">
+                <h1>Ask your question</h1>
+                <h2>Yeah, ask some question;</h2>
+
+                <div class="input">
+                    <input type="text" id="Box"
+                    onkeydown="if(event.keyCode == 13){ talk()}"
+            placeholder="Type your question">
+                    
+                </div>
+                <p id="chatLog">Answer appearing here</p>
+                <h5>Questions you can use:
+                    <ul>
+                        <li>Ποιός είσαι;</li>
+                        <li>Τι κάνεις;</li>
+                        <li>Who are you?</li>
+                    </ul>
+                </h5>
+            </div>
+        </div>
+        
+    </body>
+</html>
